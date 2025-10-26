@@ -1,0 +1,18 @@
+# Navigate to your project folder
+cd path\to\your\project
+
+# Initialize git repo if not already done
+git init
+
+# Add all files to repo (app.py, faq.csv, logo files, requirements.txt, README.md)
+git add .
+
+# Commit the added files
+git commit -m "Initial commit of TatvaAI chatbot project"
+
+# Log in to GitHub and create a remote repo named tatvaai-chatbot (via browser or GitHub CLI)
+# Use this command to add remote 
+git remote add origin https://github.com/adithyaanilbhat/tatvaai-chatbot.git
+
+# Push your local commits to GitHub main branch
+git push -u origin main
